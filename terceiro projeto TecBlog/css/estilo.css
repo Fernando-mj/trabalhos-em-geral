@@ -1,0 +1,138 @@
+/* Limpar formatação padrão */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* 
+***Layout***
+ */
+ /* ***CABEÇALHO*** */
+ #area-cabecalho{
+     background-color: #f7b600;
+     padding: 15px;
+     text-align: center;
+ }
+
+ #area-logo, #area-menu{
+     padding: 10px;
+ }
+/* ***FIM CABEÇALHO*** */
+
+/* ***INICIO FORMATAÇÃO AREA DE POSTAGEM*** */
+
+ #area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+ }
+
+ #postagens{
+    width: 660px;
+    float: left;
+ }
+
+
+ #rodape{
+     background: #CCC;
+     padding: 15px;
+     clear: both;
+     text-align: center;
+     
+ }
+
+ .postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+ }
+
+ .dataPostagem{
+     font-size: 0.8em;
+     border: 1px solid #f4f4f4;
+     display: block;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ /* ***FIM FORMATAÇÃO AREA DE POSTAGEM*** */
+ 
+ /* ***INICIO FORMATAÇÃO MENU LATERAL*** */
+
+ #menuLateralPrincipal{
+    width: 240px;
+    float: right;
+ }
+
+.menuLateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#categoria{
+    
+}
+
+/* ***FIM FORMATAÇÃO MENU LATERAL*** */
+
+ /*
+***INICIO FORMATAÇÃO GERAL***
+  */
+  
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+    
+    /* 
+    a:link -> define o estilo do link no estado inicial;
+    a:visited -> define o estilo do link visitado;
+    a:hover -> define o estilo do link quando passa-se o mouse sobre ele;
+    a:active -> define o estilo do link ativo (o que foi "clicado").
+    */
+
+    
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;   
+}
+    
+a{
+        text-decoration: none;
+    }
+
+#area-cabecalho a:link, #area-cabecalho a:visited { 
+    color: white;
+    padding: 8px 12px;
+    }
+
+#area-cabecalho a:hover{
+      color: #f7b600;
+      background: white;
+      text-decoration: none;
+    }
+      
+.letrabranca{
+     color: white;
+    }  
+
+.textoMenuLat{
+    font-size: 0.8em;
+    padding: 5px;
+}
