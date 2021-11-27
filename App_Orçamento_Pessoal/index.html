@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App Orçamento Pessoal</title>
+
+        <script>
+            class Sofa{
+                /*cor, qtd lugares, reclinavel?*/
+                constructor(cor, qtd_lugares, reclinavel) {
+                    this.cor = cor
+                    this.qtd_lugares = qtd_lugares
+                    this.reclinavel = reclinavel
+                }
+
+                reclinar(){
+                    if(this.reclinavel === true) {
+                        console.log("A cadeira reclinou.")
+                    }else{
+                        console.log("Ela não é reclinavél")
+                    }
+                }
+            }
+
+            let sofas = Array()
+
+            sofas.push(new Sofa("Vermelho", 2, true))
+            console.log(sofas)
+            sofas.reclinar()
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
